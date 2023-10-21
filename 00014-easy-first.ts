@@ -17,4 +17,4 @@ type errors = [
 
 
 // ============= Your Code Here =============
-type First<T extends any[]> = T extends [infer U, ...any[]] ? U : nevers
+type First<T extends any[]> = T extends [infer U, ...any[]] ? U : never
